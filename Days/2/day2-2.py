@@ -7,5 +7,5 @@ weight = input("enter your weight in lbs: ")
 weightNum = int(weight)
 heightNum = int(height)
 BMI = weightNum/heightNum**2 * 703
-roundedBMI = round(BMI, 2)
+roundedBMI = int(BMI)
 print(roundedBMI)
